@@ -358,7 +358,7 @@ section.galery h1 span {
 footer {
   margin-top: 5em;
   font-family: monospace;
-  font-size: large;
+  text-align: center;
   padding-top: 2em;
   width: 100%;
   background: #daa5209f;
