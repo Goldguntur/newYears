@@ -18,6 +18,7 @@
 html {
   overflow x:hidden;
   scroll-behavior: smooth;
+  width: 100vw;
 }
 
 body {
@@ -358,7 +359,7 @@ footer {
   margin-top: 5em;
   font-family: monospace;
   font-size: large;
-  padding: 2em;
+  padding-top: 2em;
   width: 100%;
   background: #daa5209f;
   color: white;
@@ -424,7 +425,7 @@ footer {
     width: 70%;
     background-color: var(--bg);
     z-index: -1;
-    right: -100%;
+    transform: translateX(100%);
     transition: all 1s;
     margin-right: 0;
     opacity: 0;
@@ -432,8 +433,7 @@ footer {
 
   nav ul.side {
     opacity: 1;
-    right: 0;
-  }
+    transform: translateX(0);
 }
 
 /* extra mini */
