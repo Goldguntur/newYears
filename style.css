@@ -424,7 +424,7 @@ footer {
     align-items: center;
     width: 70%;
     background-color: var(--bg);
-    z-index: 88;
+    z-index: -1;
     transform: translateX(100%);
     transition: all 1s;
     margin-right: 0;
